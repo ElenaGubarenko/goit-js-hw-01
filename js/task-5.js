@@ -25,19 +25,19 @@ switch (message) {
     break
 
   case "Австралия".toLowerCase():
-    country = "Австралия"
+    country = "Австралию"
     price = 170
     message = alert(`Доставка в ${country} будет стоить ${price} кредитов`)
     break
 
   case "Индия".toLowerCase():
-    country = "Индия"
+    country = "Индию"
     price = 80
     message = alert(`Доставка в ${country} будет стоить ${price} кредитов`)
     break
 
   case "Ямайка".toLowerCase():
-    country = "Ямайка"
+    country = "Ямайку"
     price = 120
     message = alert(`Доставка в ${country} будет стоить ${price} кредитов`)
     break

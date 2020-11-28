@@ -3,9 +3,16 @@
 let input
 let total = 0
 
-input = prompt("Введите число")
+do {
+  input = prompt("Введите число")
+  if (isNaN(input)) {
+    alert("Было введено не число, попробуйте еще раз")
+    continue
+  }
 
-for (let i = 0; i > 20; i += 1) {
-  total += i
-  alert(total)
-}
+  if (input !== null) {
+    total = total + parseInt(input)
+  }
+} while (input !== null)
+
+alert(`Общая сумма чисел равна ${total}`)
