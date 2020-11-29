@@ -2,7 +2,7 @@
 
 let message
 const ADMIN_PASSWORD = "jqueryismyjam"
-let userResult = prompt("Введите пароль")
+const userResult = prompt("Введите пароль")
 
 if (userResult === "jqueryismyjam") {
   message = "Добро пожаловать!"

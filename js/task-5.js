@@ -1,13 +1,12 @@
 "use strict"
 
-let delivery
-let message
 let price
 let country
+let message
 
-message = prompt("Укажите страну доставки")
+const deliveryCountry = prompt("Укажите страну доставки")
 
-switch (message) {
+switch (deliveryCountry) {
   case null:
     message = alert("Отмена")
     break
